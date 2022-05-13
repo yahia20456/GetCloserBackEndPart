@@ -1,7 +1,6 @@
 package com.esprit.pidevbackend.Config;
 
 
-import com.esprit.pidevbackend.Storage.UserHandShakeHandler;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.converter.DefaultContentTypeResolver;

@@ -2,7 +2,6 @@ package com.esprit.pidevbackend.Service;
 
 import com.esprit.pidevbackend.Domain.*;
 import com.esprit.pidevbackend.Repository.*;
-import com.esprit.pidevbackend.Storage.WSService;
 import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -29,7 +28,6 @@ public class CollaborationService implements ICollaborationService {
 	private MailService mailService;
 	private IPdfService pdfService;
 	private IReservation reservationRepo;;
-	private WSService wsService;
 
 
 
